@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<title>sobre mi</title>
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link rel="stylesheet" href="../css/materialize.min.css">
+	</head>
+
+	<body>
+
+	<!-- Header-->
+    <div class="navbar-fixed">
+	    <nav class="blue-grey darken-3" role="navegacion">
+	    	<div class="nav-wrapper">
+      			<ul class="right hide-on-med-and-down">
+        			<li><a href="../index.html">Inicio</a></li>
+        			<li class="active"><a href="#">Sobre mi</a></li>
+        			<li><a href="#">Proyectos</a></li>
+        			<li><a href="#">Novedades</a></li>
+        			<li><a href="#">Temas de estudio</a></li>
+        			<li><a href="#">Paisaje Cultural</a></li>
+        			<li><a href="#">Contacto</a></li>
+      			</ul>
+      			
+      			<!-- Version mobile-->
+      			<a  data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+	    	</div>
+	    </nav>
+	</div>
+
+				<!-- contenido version mobil-->
+				<ul id="slide-out" class="side-nav">
+        			<li><a href="../index.html">Inicio</a></li>
+        			<li class="active"><a href="#">Sobre mi</a></li>
+        			<li><a href="#">Proyectos</a></li>
+        			<li><a href="#">Novedades</a></li>
+        			<li><a href="#">Temas de estudio</a></li>
+        			<li><a href="#">Paisaje Cultural</a></li>
+        			<li><a href="#">Contacto</a></li>
+      			</ul>
+
+     <!-- Body -->
+    <div class="slider">
+    	<ul class="slides">
+      		<li>
+        		<img src="../images/estudio.jpeg"> <!-- random image -->
+        		<div class="caption left-align">
+          			<h2 class="black-text"><b>¡ Academia y educación!</b></h2>
+          			<h5 class="black-text"><b>congresos, cursos y talleres.</b></h5>
+        		</div>
+      		</li>
+      		<li>
+        		<img src="../images/hobbies.jpg"> <!-- random image -->
+        		<div class="caption center-align">
+          			<h2 class="white-text"><b>¡ Pasatiempos !</b></h2>
+			       	<h5 class="white-text"><b>Programacion competitiva, ciclismo y <br/>video juegos.</b></h5>
+        		</div>
+      		</li>
+      		<li>
+        		<img src="../images/habilidades.jpg"> <!-- random image -->
+        		<div class="caption right-align">
+          			<h2 class="black-text"><b>¡ Aptitudes !</b></h2>
+          			<h5 class="black-text"><b>habilidades y destrezas.</b></h5>
+        		</div>
+      		</li>
+      		<li>
+        		<img src="../images/intereses.png"> <!-- random image -->
+        		<div class="caption left-align">
+          			<h2 class="white-text"><b>¡ Interés !</b></h2>
+          			<h5 class="white-text"><b>Metodologias agiles, cultura Devops <br/> y programación competitiva.</b></h5>
+        		</div>
+      		</li>
+    	</ul>
+  	</div>
+    	
+	<!--footer -->
+ 	<footer class="page-footer blue-grey darken-3">
+        <div class="container">
+         	<div class="row get-in-touch">
+         		<div class="center-align">
+         			<h5 class="white-text"> Redes Sociales</h5>
+         		</div>
+         		<div class="follow_us center-align">
+         			<a href="https://www.facebook.com/pacmanCGO"><img src="../images/icons/facebook.png"></a>
+         			<a href="https://www.instagram.com/juandavidsanc/"><img src="../images/icons/instagram.png"></a>
+         			<a href="https://www.instagram.com/juandavidsanc/"><img src="../images/icons/youtube.png"></a>
+         			<a href="https://www.instagram.com/juandavidsanc/"><img src="../images/icons/google.png"></a>
+         			<a href="https://www.instagram.com/juandavidsanc/"><img src="../images/icons/linkedin.png"></a>
+         			<a href="https://www.instagram.com/juandavidsanc/"><img src="../images/icons/github.png"></a>
+         		</div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+           <div class="container center-align">
+            COPYRIGHT © 2018. ALL RIGTHTS RESERVED.DESING BY JUAN DAVID SANCHEZ
+           </div>
+        </div>
+    </footer>
+
+     <!--  Scripts-->
+	  	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  		<script src="../js/materialize.js"></script>
+  		<script src="../js/init.js"></script>
+  		<script >
+  			$(".button-collapse").sideNav();
+  			$(document).ready(function(){
+      		$('.slider').slider();});
+  		</script>
+	</body>
+</html>
