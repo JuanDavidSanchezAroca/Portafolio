@@ -47,33 +47,118 @@
       		<li>
         		<img src="../images/estudio.jpeg"> <!-- random image -->
         		<div class="caption left-align">
-          			<h2 class="black-text"><b>¡ Academia y educación!</b></h2>
-          			<h5 class="black-text"><b>congresos, cursos y talleres.</b></h5>
+          			<h2 class="black-text"><b>Academia y educación.</b></h2>
+          			<h5 class="black-text"><b>congresos, capacitaciones y talleres.</b></h5>
         		</div>
       		</li>
       		<li>
         		<img src="../images/hobbies.jpg"> <!-- random image -->
         		<div class="caption center-align">
-          			<h2 class="white-text"><b>¡ Pasatiempos !</b></h2>
+          			<h2 class="white-text"><b>Pasatiempos.</b></h2>
 			       	<h5 class="white-text"><b>Programacion competitiva, ciclismo y <br/>video juegos.</b></h5>
         		</div>
       		</li>
       		<li>
         		<img src="../images/habilidades.jpg"> <!-- random image -->
         		<div class="caption right-align">
-          			<h2 class="black-text"><b>¡ Aptitudes !</b></h2>
+          			<h2 class="black-text"><b>Aptitudes</b></h2>
           			<h5 class="black-text"><b>habilidades y destrezas.</b></h5>
         		</div>
       		</li>
       		<li>
         		<img src="../images/intereses.png"> <!-- random image -->
         		<div class="caption left-align">
-          			<h2 class="white-text"><b>¡ Interés !</b></h2>
+          			<h2 class="white-text"><b>Interés</b></h2>
           			<h5 class="white-text"><b>Metodologias agiles, cultura Devops <br/> y programación competitiva.</b></h5>
         		</div>
       		</li>
     	</ul>
   	</div>
+  <!-- estudios --> 
+  <div class="row center-align">
+    <div class="col s6">
+        <span class="green-text  text-darken-4 center-align"> <h5><b>Educación</b></h5></span>
+
+          <div class="card-panel">
+            <span class="green-text  text-darken-4 center-align"> <h5><b>Educación básica secundaria</b></h5></span>
+             <div class="row valing-wrapper">
+                <div class="col s2">
+                  <img src="../images/icons/escudo.jpg">
+                </div>
+                <div class="col s10">
+                  <p class="black-text center-align"> Escuela Normal Superior del Quindío</br>
+                    2002 - 2013
+                  </p>
+                </div>
+             </div>
+          </div>
+
+          <div class="card-panel">
+            <span class="green-text  text-darken-4 center-align"><h5><b>Educación superior nivel pregrado</b></h5></span>
+              <div class="row valing-wrapper">
+                <div class="col s2">
+                  <img src="../images/icons/uniquindio.jpg">
+                </div>
+                <div class="col s10">
+                  <p class="black-text center-align"> Universidad del Quindío</br> Ingeniería de Sistemas y Computación<br/> 2014 - 2019</p>
+                </div>
+             </div>
+          </div> 
+
+          <div class="card-panel">
+            <span class="green-text  text-darken-4 center-align"><h5><b>Semillero Investigación</b></h5></span>
+              <div class="row valing-wrapper">
+                <div class="col s2">
+                  <img src="../images/icons/uniquindio.jpg">
+                </div>
+                <div class="col s10">
+                  <p class="black-text center-align"> Universidad del Quindío</br>Semillero Investigación (SINFOCI)<br/> 2017 - 2018</p>
+                </div>
+             </div>
+          </div>        
+    </div>
+    <div class="col s6">   
+        <span class="green-text  text-darken-4 center-align">
+           <h5><b>Capacitaciones, talleres, foros y congresos</b></h5>
+        </span>
+
+        <div class="card-panel">
+            <span class="green-text  text-darken-4 center-align"><h5><b>Cursos sena</b></h5></span>
+              <div class="row valing-wrapper">
+                <div class="col s2">
+                  <img src="../images/icons/sena.png">
+                </div>
+                <div class="col s10">
+                  <p class="black-text center-align"> CONTROLES Y SEGURIDAD INFORMATICA - 2015 <br/> ALFABETIZACIÓN DIGITAL CON ÉNFASIS EN LAS TIC -2012</p>
+                </div>
+             </div>
+          </div>  
+    </div>
+  </div>
+
+  <!-- pasatiempos -->
+   <div class="slider">
+      <ul class="slides">
+          <li>
+            <img src="../images/acmicpc.jpg"> <!-- random image -->
+            <div class="caption center-align">
+                <h2 class="white-text"><b>Programación competitiva.</b></h2>
+            </div>
+          </li>
+          <li>
+            <img src="../images/ciclismo.jpg"> <!-- random image -->
+            <div class="caption left-align">
+                <h2 class="black-text"><b>Ciclismo.</b></h2>
+            </div>
+          </li>
+          <li>
+            <img src="../images/juegos.jpg"> <!-- random image -->
+            <div class="caption right-align">
+                <h2 class="white-text"><b>video juegos</b></h2>
+            </div>
+          </li>
+      </ul>
+    </div>
     	
 	<!--footer -->
  	<footer class="page-footer blue-grey darken-3">
@@ -106,7 +191,7 @@
   		<script >
   			$(".button-collapse").sideNav();
   			$(document).ready(function(){
-      		$('.slider').slider();});
+      		$('.slider').slider({transition:500,interval:2000,});});
   		</script>
 	</body>
 </html>
